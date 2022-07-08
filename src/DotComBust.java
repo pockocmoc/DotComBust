@@ -66,7 +66,7 @@ public class DotComBust {
     private void finishGame() {
         System.out.println("Все сайты-корабли ушли ко дну! Ваши акции теперь ничего не стоят.");
         if (numOfGuesses <= 18) {
-            System.out.println("Это заняло у вас всего " +numOfGuesses+ "попыток.");
+            System.out.println("Это заняло у вас всего " +numOfGuesses+ " попыток.");
             System.out.println("Вы успели выбраться до того, как ваши вложения утонули.");
         } else {
             System.out.println("Это заняло у вас довольно много времени. " +numOfGuesses+ " попыток.");
